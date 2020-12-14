@@ -2,7 +2,7 @@
 
 An incremental video-retrieval scraper for Twitch's CDN.
 
-**This should only ever be used on your own content. I do not provide support for, condone, or approve of the use of this tool to download content you have obtained express permissions to test with.**
+**This should only ever be used on your own content. I do not provide support for, condone, or approve of the use of this tool to download content you have not obtained express permission to test with.**
 
 ## What is this?
 This scraper uses the fact that Twitch internally stores all VODs and Clips on their CDN using an incremental ID to simply iterate through every possible ID, downloading any videos it finds. Because Twitch doesn't delete content from their servers, you can potentially find content from banned users or content that's been deleted. This proof of concept was done on a small sample of 100 clips, the creator of which I obtained prior permission from. Please respect people's privacy.
